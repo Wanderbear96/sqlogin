@@ -1,0 +1,20 @@
+body{
+    background-image:url("https://www.sahakol.com/wp-content/uploads/revslider/Main-Slider-01_1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tx{
+    font-family: 'Prompt', sans-serif;
+    color: black;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.473) !important;
+    }
