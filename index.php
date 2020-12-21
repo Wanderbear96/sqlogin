@@ -1,25 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-
-            <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="https://www.sahakol.com/wp-content/uploads/2019/08/cropped-logo-favicon-32x32.png" sizes="32x32" />
-
-    </head>
-
-    <title>Login Internet Sahakol</title>
+<?php include('header.php') ?>
 
 <body " data-new-gr-c-s-check-loaded="14.988.0" data-gr-ext-installed="">
 
@@ -46,12 +27,12 @@
             <div class="col-md-4"><h3></h3></div>
             <div class="col-md-4" style="text-align:center;"><img src="https://www.sahakol.com/wp-content/uploads/2019/08/logo_02-retina.png" width="80%" 
             style="webkit-filter: drop-shadow(1px 1px 0 black)drop-shadow(-1px -1px 0 black);filter: drop-shadow(1px 1px 0 black)drop-shadow(-1px -1px 0 black);"></div>
-            <div class="col-md-4"><h3></h3></div>
+            <div class="col-md-4"></div>
           </div><!--End logo-->
 
-      <div class="row"><!--text title-->
+      <div class="row" ><!--text title-->
         <div class="col-md-4"></div>
-        <div class="col-md-4"  style="background-color:rgba(1, 6, 77, 1);; margin-top: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; height: auto;">
+        <div class="col-md-4"  style="background-color:rgba(1, 6, 77, 1); margin-top: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; height: auto;">
             <h3>            
                <p class="txtitle" style="font-size: 20px;">บริษัทสหกลอิควิปเมนท์จำกัด(มหาชน)</p>
                <p class="txtitle" style="font-size: 15px;"><strong>OFFICE  PHASE 8</strong></p> 
