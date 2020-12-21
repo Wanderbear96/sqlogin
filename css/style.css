@@ -1,24 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 body{
-    background-image:url("https://www.sahakol.com/wp-content/uploads/revslider/Main-Slider-01_1.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-image: url("https://www.sahakol.com/wp-content/uploads/revslider/Main-Slider-01_1.jpg");
+  }
 
-.tx{
+label ,h3,p{
     font-family: 'Prompt', sans-serif;
-    color: black;
-}
+    color :white;  
+    white-space: nowrap;
+    
+  }
+  
+  .btn{
+    border-radius:5px;
+     font-weight :bold;
+     font-family: 'Prompt', sans-serif;
+  }
+    input{
+      width: 20%; 
+      border-radius: 2.5px;    
+      
+  }
 
-.card{
-    height: 370px;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 400px;
-    background-color: rgba(255, 255, 255, 0.473) !important;
-    }
-
-.form-control{
-    width: 100px;
-}
