@@ -7,10 +7,17 @@ body{
     -o-background-size: cover;
   }
 
-label ,p{
+label ,p,h3{
     font-family: 'Prompt', sans-serif;
-        color :white;
+        color :black;
   }
+
+.logo{
+    filter: drop-shadow(5px 5px 5px #222); 
+    width:200px; 
+    height:220px; 
+}
+
   
 .footer{
     width: 100%;
