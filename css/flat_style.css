@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+body{
+    background-image: url("../img/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   /* background-color: rgba(1, 6, 77, 1); */
+   background-size: cover;
+  }
+
+label ,h4{
+    font-family: 'Prompt', sans-serif;
+    color :black;
+    font-size: 15px;
+  }
+
+p{
+    font-family: 'Prompt', sans-serif;
+    color :black;
+  }
+span > i{
+    font-family:  'Prompt', sans-serif;
+    font-style: normal;
+}
+
+
+fieldset{
+    text-align: center;
+    background-color:rgba(197, 197, 197, 0.719);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-color:rgb(139, 139, 139);
+}
+legend{
+    border-style: solid;
+    background-color: #4472B0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.form-control{
+    border-style: solid;
+    border-color:rgb(139, 139, 139);
+}
+
+@media all and (min-width: 768px) {
+    .mobile {
+      display: none !important;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .desktop{
+      display: none !important;
+    }
+  }
+  
+.footer{
+    width: 100%;
+    height:auto;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+    background-color:  #4472B0;
+    text-align: center; 
+    white-space:inherit;
+}
+p>a{
+    color: #962300;
+}
+
+.txtitle{
+    font-family: 'Prompt', sans-serif;
+    color:white; 
+    text-align: center;
+    white-space:inherit;
+}
+
+.btn{
+    border-radius: 2px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color:#E5673F;
+    color: black;
+    text-align: center;
+}
+
+.btn:hover{
+    border-radius: 2px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color:#4472B0;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+}
+ 
