@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 
 body{
-    background-image: url("../img/bg.svg");
+    background-image: url("../img/bg-min.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,6 +50,7 @@ legend{
     .mobile {
       display: none !important;
     }
+
   }
   
   @media all and (max-width: 767px) {
