@@ -11,8 +11,6 @@ body{
 
 label ,h4{
     font-family: 'Prompt', sans-serif;
-    color :black;
-    font-size: 15px;
   }
 
 p{
@@ -39,7 +37,6 @@ legend{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
-
 
 .form-control{
     border-style: solid;
